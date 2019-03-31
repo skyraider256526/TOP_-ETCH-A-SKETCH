@@ -1,47 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: arial;
+#container {
+  width: 960px;
+  height: 960px;
+  background-color: rgb(91, 17, 160);
+  display: grid;
+  margin-left: 20%;
+  border: 6px solid skyblue;
 }
-
+div {
+  background-color: white;
+  border: 1px solid blueviolet;
+}
 body {
-    background-image: url("squares.jpg");
+  background-color: rgb(91, 17, 160);
 }
-
+#buttons {
+  float: right;
+  background-color: rgb(91, 17, 160);
+}
+button {
+  color: white;
+  font-size: 23px;
+  padding: 18px;
+  background-color: rgb(91, 17, 160);
+}
+button:hover {
+  background-color: skyblue;
+  font-size: 28px;
+}
 h1 {
-    padding: 10px;
-    text-align: center;
-    background-color: rgba(110, 110, 110, 70%);
-    color: white;
-}
-
-.btn {
-    text-align: center;
-    margin: 5px 0;
-}
-
-.new-btn, .clear-btn, .rand-colors, .default-color {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #6e6e6e;
-    color: #fff;
-    border: 1px solid #aeaeae;
-}
-
-.container {
-    width: 1200px;
-    height: 520px;
-    border: 3px solid #6e6e6e;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
-.rows {
-    display: flex;
-    width: 100%;
-}
-
-.cols {
-    flex: 1;
+  text-align: center;
+  color: white;
 }
