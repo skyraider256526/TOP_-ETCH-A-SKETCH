@@ -1,11 +1,6 @@
-.container{
-	display: grid;
-	grid-gap: 5px;
-	grid-template-columns: auto auto auto auto ;
-	margin: 0 auto;
+  .container{
+	display:grid;
+	background-color:#2196F3;
+	grid-gap:5px;
 }
-.container > div{
-	background-color: blue;
-	height: 100px;
 
-}
