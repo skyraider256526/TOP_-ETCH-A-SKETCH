@@ -1,6 +1,21 @@
-  .container{
+ body{
+ 	background-image: url(http://dem2.olevmedia.net/beep/wp-content/uploads/2013/11/pieces-abstract-background-bubble-artik.png);
+	background-color : #cccccc;
+	background-position: center;
+ }
+ .container{
+  	background-color:#2196F3;
 	display:grid;
-	background-color:#2196F3;
-	grid-gap:5px;
+	grid-gap:1px;
+	padding: 5px;
+	width: 960px;
+	height: 600px;
+	margin-left: 15%;
+	border: 10px skyblue solid;
+	border-radius: 10%;
 }
-
+.rows{
+	background-color: rgba(255, 255, 255, 0.8); 
+	text-align: center;
+	border: 0px black solid;
+}
