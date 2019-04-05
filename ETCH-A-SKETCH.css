@@ -1,21 +1,35 @@
- body{
- 	background-image: url(http://dem2.olevmedia.net/beep/wp-content/uploads/2013/11/pieces-abstract-background-bubble-artik.png);
-	background-color : #cccccc;
-	background-position: center;
- }
- .container{
-  	background-color:#2196F3;
-	display:grid;
-	grid-gap:1px;
-	padding: 17px;
-	width: 960px;
-	height: 600px;
-	margin-left: 15%;
-	border: 10px skyblue solid;
-	border-radius: 10%;
+
+body {
+    background-color : #cccccc;
+    background-image: url(http://dem2.olevmedia.net/beep/wp-content/uploads/2013/11/pieces-abstract-background-bubble-artik.png);
+    background-position: center;
 }
-.rows{
-	background-color: rgba(255, 255, 255, 0.8); 
-	text-align: center;
-	border: 0px black solid;
+
+.container {
+    border: 10px skyblue solid;
+    border-radius: 10%;
+    background-color: #2196F3;
+    display: grid;
+    grid-gap: 1px;
+    height: 600px;
+    margin-left: 15%;
+    padding: 17px;
+    width: 960px;
+}
+
+.rows {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0 black solid;
+    text-align: center;
+}
+span{
+	position: absolute;
+	right: 30px;
+	top: 25%;
+	bottom: 25%;
+}
+button{
+	color: black; 
+	background-color: lightblue;
+	border-radius: 20%;
 }
